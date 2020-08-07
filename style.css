@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.section {
+    height: 100vh;
+}
+.header {
+    background: url(/img/camada.png) center center no-repeat;
+    padding-top: 44px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.menu a {
+    margin-right: 120px;
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+}
+.menu: :last-child {
+    margin-right: 0;
+}
+.header-text{
+    text-align: center;
+    margin-top: 260px;
+}
+.header-text h1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+}
+.header-text p {
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4.2px;   
+}
+.header button {
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 20px 80px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+}
+.header button:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
+.about {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-text span {
+    color: #c4c4c4;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 3.08px;
+}
+.about-text h2 {
+    margin-top: 32px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+.about-text p {
+    margin-bottom: 54px;
+    color: #5b5b5c;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+.about-text button {
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 20px 80px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+}
+.about-text button:hover {
+    background-color:#000;
+    color: #fff;
+    border-color: #about-text:
+}
+.photos {
+    margin-top: 100px;
+    text-align: center;
+}
+.photos h2 {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px
+}
+.photos p {
+    margin-top: 36px;
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+.photos-wrap {
+    margin-top: 65px;
+}
+.photos-wrap img {
+    margin: 10px;
+}
+.company {
+    text-align: center;
+    margin-top: 100px;
+}
+.company-text h2 {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+}
+.company-text p {
+    margin-top: 30px;
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+.company-wrap {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.company-block-1 {
+    margin-right: 10px;
+}
+.company-block h3 {
+    margin-top: 66px;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.company-block p {
+    margin-top: 55px;
+    margin-bottom: 40px;
+    color: #848484;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 3.8px;
+}
+.company-block-1 h3 {
+    margin-top: 66px;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.company-block-1 p {
+    margin-top: 55px;
+    margin-bottom: 40px;
+    color: #848484;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 3.8px;
+}
+.company-block-1 button {
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    width: 221px;
+    height: 58px;
+    background-color: #dddcdc;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+}
+.company-block button {
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    width: 221px;
+    height: 58px;
+    background-color: #dddcdc;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+}   
+.send {
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin-right: 10px;
+}
+.send-text h2 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+.send-text p {
+    color: #5b5b5c;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2.52px;
+}
+.input {
+    margin-right: 50px;
+    border: 2px solid #7a7a7a;
+    background-color: transparent;
+    color: #3a4047;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+.form {
+    border: none;
+    background-color: #f4f4f4;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3.08px;
+}
+.form button {
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3.08px;
+}
+.form button:hover {
+    background-color: #fff;
+    color: 000; 
+}
+.footer {
+    text-align: center;
+    padding: 95px 0;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+}
+.footermenu {
+    margin-bottom: 66px;
+}
+.footermenu a {
+    margin-right: 55px;
+    color: #000000;
+    text-decoration: none;
+}
+.footermenu a:last-child {
+    margin-right: 0;
+}
+.footer-text {
+    margin-bottom: 20px;
+}
